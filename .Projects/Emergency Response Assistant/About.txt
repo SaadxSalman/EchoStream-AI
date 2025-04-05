@@ -1,1 +1,0 @@
-A CV model that can identify emergency situations (like fires or accidents) through surveillance footage and provide real-time alerts to emergency responders.

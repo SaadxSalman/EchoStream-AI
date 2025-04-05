@@ -1,1 +1,0 @@
-An application that analyzes a user’s body language in real time during video calls, providing feedback on posture, gestures, and expressions to improve communication skills.

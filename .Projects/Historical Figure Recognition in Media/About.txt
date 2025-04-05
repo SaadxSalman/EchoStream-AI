@@ -1,1 +1,0 @@
-A CV tool that recognizes historical figures in films, documentaries, or news segments, providing contextual information and trivia in real time.

@@ -1,1 +1,0 @@
-An interactive educational app that uses CV to recognize physical objects in a child’s environment and provides relevant educational content or quizzes based on those objects.

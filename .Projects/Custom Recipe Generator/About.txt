@@ -1,1 +1,0 @@
-A model that analyzes the ingredients in a user’s kitchen (through images) and generates unique recipes based on those items, encouraging creativity and reducing food waste.

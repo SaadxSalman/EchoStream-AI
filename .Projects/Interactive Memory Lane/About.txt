@@ -1,1 +1,0 @@
-An augmented reality (AR) application that overlays historical images or videos onto current locations when viewed through a smartphone camera, allowing users to experience historical events in their original context.

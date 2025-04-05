@@ -1,1 +1,0 @@
-A CV-powered storytelling app where children can interact with characters or objects on the screen, which respond to their actions and create a personalized narrative experience.

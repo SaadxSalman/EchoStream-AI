@@ -1,1 +1,0 @@
-A CV system that analyzes satellite or drone footage to track animal migration patterns over time, providing insights into environmental changes and conservation efforts.

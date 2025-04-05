@@ -1,1 +1,0 @@
-An app that recognizes flora and fauna through the camera and provides personalized recommendations for nearby nature trails, parks, or outdoor activities based on user preferences and the identified species.

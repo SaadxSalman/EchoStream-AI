@@ -1,1 +1,0 @@
-A CV system that allows users to capture current moments (images, videos) and add them to a virtual time capsule. The system could use facial recognition to identify people and tag memories for future viewing.

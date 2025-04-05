@@ -1,1 +1,0 @@
-An app that recognizes emotional cues during user interactions (like stress or anxiety) and provides immediate coping strategies, activities, or reminders to practice mindfulness.

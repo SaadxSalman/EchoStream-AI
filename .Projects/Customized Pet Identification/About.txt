@@ -1,1 +1,0 @@
-A model that identifies individual pets based on their unique physical traits (e.g., fur patterns, ear shape). This could assist in pet recovery efforts or help animal shelters track animals more effectively.

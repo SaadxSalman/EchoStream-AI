@@ -1,1 +1,0 @@
-A system that recognizes and catalogues household items through images, providing reminders for expiry dates, suggesting grocery lists, or tracking item usage.

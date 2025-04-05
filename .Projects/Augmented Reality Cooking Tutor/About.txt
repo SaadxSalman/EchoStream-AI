@@ -1,1 +1,0 @@
-An AR application that recognizes ingredients and kitchen tools, providing step-by-step cooking instructions and real-time feedback as users cook, enhancing their culinary skills.

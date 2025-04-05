@@ -1,1 +1,0 @@
-An AI-powered workout companion that uses CV to analyze your form during exercises, offering real-time tips and motivation while keeping track of your fitness progress.

@@ -1,1 +1,0 @@
-Semantic segmentation assigns a class to each pixel without distinguishing between individual instances of the same class.

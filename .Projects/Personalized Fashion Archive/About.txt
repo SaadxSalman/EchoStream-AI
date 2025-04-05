@@ -1,1 +1,0 @@
-A model that scans a user's wardrobe and creates a digital archive of their clothing items, suggesting new combinations and tracking how often each piece is worn.

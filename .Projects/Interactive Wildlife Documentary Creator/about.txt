@@ -1,1 +1,0 @@
-A system that uses CV to analyze video footage from nature and generates a documentary by identifying animals, their behaviors, and providing contextual narration based on real-time data.

@@ -1,1 +1,0 @@
-A system that recognizes physical objects and integrates their information with online resources (like Wikipedia or instructional videos). For example, pointing a camera at a tool could display its uses and related tutorials.

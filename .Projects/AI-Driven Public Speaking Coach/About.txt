@@ -1,1 +1,0 @@
-A tool that analyzes users during practice speeches, providing feedback on body language, eye contact, and speech pacing, helping improve their public speaking skills.

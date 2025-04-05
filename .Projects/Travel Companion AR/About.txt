@@ -1,1 +1,0 @@
-An augmented reality application that recognizes landmarks and historical sites through a smartphone camera, providing interactive historical facts, anecdotes, and cultural insights.

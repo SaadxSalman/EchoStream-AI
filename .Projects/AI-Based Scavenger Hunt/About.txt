@@ -1,1 +1,0 @@
-A game where participants use their smartphones to find and scan objects in the real world, with the AI providing clues based on the identified objects. This could involve learning about the history or significance of each item found.

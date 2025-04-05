@@ -1,1 +1,0 @@
-A CV-based application that transforms user-uploaded images into comic strips, using facial expressions and body language to generate dialogues and scenarios.

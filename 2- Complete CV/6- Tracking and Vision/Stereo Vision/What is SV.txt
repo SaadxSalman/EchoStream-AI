@@ -1,1 +1,0 @@
-Stereo vision involves capturing two or more images of the same scene from different positions to estimate the 3D structure of objects.

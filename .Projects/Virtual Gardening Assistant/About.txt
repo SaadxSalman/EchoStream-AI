@@ -1,1 +1,0 @@
-An application that uses CV to recognize plants in users’ gardens, offering care tips, watering schedules, and pest control advice based on the identified species.

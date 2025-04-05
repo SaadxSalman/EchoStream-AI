@@ -1,1 +1,0 @@
-A system that analyzes artwork in real time and provides feedback or critique based on established art theories. The model could evaluate color usage, composition, and style, helping artists improve their skills.

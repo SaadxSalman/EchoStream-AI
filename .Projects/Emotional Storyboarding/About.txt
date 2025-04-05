@@ -1,1 +1,0 @@
-A tool that generates storyboards for films or animations by analyzing scripts or narratives. The model would recognize key emotional cues and suggest visual scenes based on facial expressions, colors, and settings.

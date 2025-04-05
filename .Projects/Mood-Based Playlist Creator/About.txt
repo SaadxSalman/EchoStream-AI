@@ -1,1 +1,0 @@
-A CV application that analyzes a user’s facial expressions and surroundings through the camera to generate a music playlist that matches their current mood and environment.

@@ -1,1 +1,0 @@
-Instance segmentation identifies each object instance with a unique mask, combining object detection and segmentation.

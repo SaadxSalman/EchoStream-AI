@@ -1,1 +1,0 @@
-Panoptic segmentation combines semantic and instance segmentation by assigning both a class and an instance to each pixel.

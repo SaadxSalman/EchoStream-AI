@@ -1,1 +1,0 @@
-A VR application that uses CV to recognize historical artifacts or locations and provides immersive narratives or guided tours about their significance.

@@ -1,1 +1,0 @@
-A CV application that analyzes images of cultural artifacts or monuments to assess their condition and suggest preservation methods, aiding in cultural heritage conservation.
