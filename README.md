@@ -63,12 +63,3 @@ Run the Rust backend and the Next.js frontend to begin your cognitive code searc
 
 -----
 
-## 🤝 Contributing
-
-We welcome contributions from developers, researchers, and anyone interested in advancing code intelligence. Please read our [CONTRIBUTING.md](https://www.google.com/search?q=https://github.com/saadsalmanakram/Synapse-360/blob/main/CONTRIBUTING.md) for details on submitting pull requests.
-
------
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=https://github.com/saadsalmanakram/Synapse-360/blob/main/LICENSE) file for details.
