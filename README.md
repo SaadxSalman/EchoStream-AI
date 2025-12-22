@@ -101,3 +101,46 @@ Run the Rust backend and the Next.js frontend to begin your cognitive code searc
 
 -----
 
+To tie everything together for **Synapse-360**, here is the final, comprehensive directory structure. This organization supports the **Rust-to-Node gRPC bridge**, the **SSE real-time streaming**, and the **Milvus/MongoDB** data layer.
+
+### 📂 Project Structure
+
+```text
+Synapse-360/
+├── proto/                          # Shared gRPC definitions
+│   └── synapse.proto               # Service and Message definitions
+├── core-engine/                    # Rust: High-performance logic
+│   ├── src/
+│   │   ├── main.rs                 # gRPC Server & orchestration
+│   │   ├── embedder.rs             # Candle + Gemma-CodeVec logic
+│   │   └── milvus_client.rs        # Vector DB operations
+│   ├── models/                     # Gemma weights (.safetensors)
+│   ├── build.rs                    # Tonic/gRPC build script
+│   └── Cargo.toml                  # Rust dependencies
+├── server/                         # Node.js/Express: API Gateway
+│   ├── src/
+│   │   ├── grpc/
+│   │   │   └── client.ts           # gRPC Client to talk to Rust
+│   │   ├── routes/
+│   │   │   └── analyze.ts          # SSE Streaming & Meta-data routes
+│   │   ├── models/                 # MongoDB Schemas (CodeMetadata.ts)
+│   │   └── index.ts                # Server entry point
+│   ├── package.json
+│   └── .env                        # Port, Mongo URI, Milvus URL
+├── frontend/                       # Next.js: User Interface
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx            # Main dashboard with EventSource
+│   │   ├── components/
+│   │   │   ├── AnalysisSteps.tsx   # CoT Visualizer
+│   │   │   └── CodeEditor.tsx      # Monaco Editor wrapper
+│   │   └── hooks/
+│   │       └── useSSE.ts           # Custom hook for stream management
+│   └── tailwind.config.ts
+├── docker-compose.yml              # Milvus, Etcd, MinIO, MongoDB
+└── .gitignore
+
+```
+
+---
