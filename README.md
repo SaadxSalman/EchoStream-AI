@@ -14,13 +14,16 @@ An advanced version of your SynapseSearch project, **Synapse-360** is a cognitiv
   * **High-Performance Backend:** The core logic is written in **Rust**, providing a low-latency, real-time code analysis engine.
 
 -----
+## 🛠️ Stack Details
 
-## ⚙️ Tech Stack
-
-  * **Frontend:** [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/)
-  * **Backend:** Rust
-  * **Vector Database:** [Milvus](https://milvus.io/)
-  * **Code Embeddings:** Gemma-CodeVec (fine-tuned)
+* **Frontend:** [Next.js](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Backend:** [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/) (MERN Core)
+* **Database:** [MongoDB](https://www.mongodb.com/) (MERN Core)
+* **Vector Engine:** [Milvus](https://milvus.io/)
+* **Core Logic:** [Rust](https://www.rust-lang.org/)
+* **Code Embeddings:** Gemma-CodeVec (fine-tuned)
 
 -----
 
