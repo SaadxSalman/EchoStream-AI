@@ -14,16 +14,51 @@ An advanced version of your SynapseSearch project, **Synapse-360** is a cognitiv
   * **High-Performance Backend:** The core logic is written in **Rust**, providing a low-latency, real-time code analysis engine.
 
 -----
-## 🛠️ Stack Details
 
-* **Frontend:** [Next.js](https://nextjs.org/) (App Router)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Language:** [TypeScript](https://www.typescriptlang.org/)
-* **Backend:** [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/) (MERN Core)
-* **Database:** [MongoDB](https://www.mongodb.com/) (MERN Core)
-* **Vector Engine:** [Milvus](https://milvus.io/)
-* **Core Logic:** [Rust](https://www.rust-lang.org/)
-* **Code Embeddings:** Gemma-CodeVec (fine-tuned)
+### ⚛️ The Core Logic (Systems Layer)
+
+This layer handles the heavy computational "cognitive" tasks.
+
+* **Language:** **Rust** (High-performance, memory-safe engine).
+* **Inference Engine:** **Candle** (Hugging Face’s lightweight ML framework for Rust).
+* **Model:** **Gemma-CodeVec** (Fine-tuned for code semantic understanding).
+* **Communication:** **gRPC** (Using the `Tonic` crate) for low-latency communication with the Node.js layer.
+
+---
+
+### 🔎 The Intelligent Storage (Data Layer)
+
+* **Vector Database:** **Milvus** (Handles billions of code embeddings for semantic search).
+* **Primary Database:** **MongoDB** (Stores user profiles, project metadata, and analysis history).
+* **Coordination:** **Etcd** & **MinIO** (Internal dependencies for Milvus to manage state and object storage).
+
+---
+
+### 🌐 The Orchestration (Backend Layer)
+
+* **Runtime:** **Node.js** with **TypeScript**.
+* **Framework:** **Express.js** (Serves as the API Gateway).
+* **Communication:** **Server-Sent Events (SSE)** for pushing real-time Chain of Thought (CoT) updates to the UI.
+* **ORM/ODM:** **Mongoose** (For structured data interaction).
+
+---
+
+### 💻 The Interface (Frontend Layer)
+
+* **Framework:** **Next.js 15+** (App Router for optimized performance).
+* **Styling:** **Tailwind CSS** (Utility-first styling for a sleek, dark-mode developer aesthetic).
+* **Code Editor:** **Monaco Editor** (The core engine behind VS Code) for code input and syntax highlighting.
+* **Animations:** **Framer Motion** (For smooth "Chain of Thought" transitions).
+* **Icons:** **Lucide React**.
+
+---
+
+### 🛠️ DevOps & Tooling
+
+* **Containerization:** **Docker** and **Docker Compose** (For local development and Milvus orchestration).
+* **API Testing:** **Postman** (for REST) and **gRPCurl** (for testing the Rust engine).
+* **Environment Management:** **Dotenv** for cross-service configuration.
+
 
 -----
 
