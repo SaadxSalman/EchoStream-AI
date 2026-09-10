@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoStream-AI — Real-Time Voice RAG Agent</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎙️ EchoStream<span class="accent">-AI</span></h1>
+    <p class="tagline">Real-Time Voice-Interactive RAG Agent · Groq Whisper · vLLM + LMCache · Qdrant</p>
+    <div class="status-row">
+      <span id="ws-status" class="pill pill-off">WS disconnected</span>
+      <span id="stage" class="pill pill-idle">idle</span>
+      <span id="models" class="pill pill-info">—</span>
+    </div>
+  </header>
+
+  <section class="metrics">
+    <div class="metric"><span class="metric-label">Last TTFT</span><span id="m-ttft" class="metric-value">—</span></div>
+    <div class="metric"><span class="metric-label">Cache hit</span><span id="m-cache" class="metric-value">—</span></div>
+    <div class="metric"><span class="metric-label">Turn total</span><span id="m-turn" class="metric-value">—</span></div>
+    <div class="metric"><span class="metric-label">Sources used</span><span id="m-sources" class="metric-value">—</span></div>
+    <div class="metric"><span class="metric-label">Avg TTFT</span><span id="m-ttft-avg" class="metric-value">—</span></div>
+  </section>
+
+  <main>
+    <section class="card">
+      <h2>Conversation</h2>
+      <div id="conversation" class="conversation">
+        <div class="hint">Click <strong>Start listening</strong> and just talk. The agent transcribes with Groq Whisper,
+        retrieves from Qdrant, streams tokens from vLLM, and speaks the answer back.</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Retrieved documents <span id="sources-count" class="muted"></span></h2>
+      <div id="sources" class="sources"><div class="muted">Nothing retrieved yet.</div></div>
+    </section>
+  </main>
+
+  <footer class="controls">
+    <button id="btn-mic" class="btn primary">● Start listening</button>
+    <button id="btn-flush" class="btn" disabled>⏎ Send now</button>
+    <label class="toggle"><input type="checkbox" id="chk-tts" checked /> Speak answers (browser TTS)</label>
+    <label class="toggle"><input type="checkbox" id="chk-vad" checked /> Voice activity gate</label>
+    <span id="mic-status" class="muted">microphone off</span>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
